@@ -1,0 +1,140 @@
+/* DEVELOPER: George Kirvalidze, IS117-003, Fall 2024 */
+.logo {
+    width: 100px;
+    height: auto;
+    background-color: goldenrod;
+    border-radius: 25px;
+}
+.logo:hover {
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.num{
+    width: 100px;
+    height: auto;
+    background-color: darkgoldenrod;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.num:hover{
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 36px;
+}
+.quote {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+}
+.wt{
+    padding-top: 2%;
+    color: goldenrod;
+}
+.rw{
+    color: goldenrod;
+}
+.wt:hover{
+    color: antiquewhite;
+    font-style: italic;
+}
+.rw:hover{
+    color: antiquewhite;
+    font-style: italic;
+}
+.quote:hover{
+    color: antiquewhite;
+    font-style: italic;
+}
+.navbar {
+    margin-top: 20px;
+    background-color: black !important;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 300px;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    margin-right: 15px;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: large;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    font-style: italic;
+    color: antiquewhite;
+}
+a.nav-link{
+    color: goldenrod;
+}
+.carousel-item img {
+    /*width: 60% !important;*/
+    height: 75% !important;
+    margin: 1%;
+    padding-left: 18%;
+    padding-right: 2%;
+    max-width: 80%;
+    align-items: center;
+}
+footer{
+    margin-top: .1%;
+    text-align: center;
+    vertical-align: baseline;
+    padding-bottom: .5%;
+    padding-top: .5%;
+    border: 1px solid black;
+    background-color: black !important;
+}
+.footer .text-muted{
+    color: goldenrod !important;
+    font-size: large;
+    font-weight: bolder;
+}
+body{
+    background-color: midnightblue;
+}
+.text-muted{
+    color: goldenrod;
+}
+.dropdown-item{
+    background-color: black !important;
+    color: goldenrod;
+}
+.dropdown-item:hover{
+    color: antiquewhite;
+}
+.form-control {
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.form-group label{
+    margin-top: 1%;
+    color: goldenrod;
+    font-size: 200%;
+}
+.btn {
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 44%;
+    color: black;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    font-size: 200%;
+}
+.checkbox-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
